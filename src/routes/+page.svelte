@@ -1,16 +1,16 @@
 <script>
     import Nav from "../components/Nav.svelte";
-    import Hero from "../components/Hero.svelte";
+    import Front from "../components/Front.svelte";
 </script>
 
 <title>Ping Pong</title>
 <main class="pt-[6rem]">
-    <div class="mt-0">
+    <div class="main mt-0 pl-0">
      <Nav />
 
      <!-- news alert -->
-     <div class="bg-indigo-50 py-2 h-24 mt-0 mb-0 pb-0 ">
-      <div class="container mx-auto px-4">
+     <div class="bg-indigo-50 py-2 h-24 mt-0 mb-0 pb-0 pl-[70px]  ">
+      <div class="container mx-auto px-4 mr-8px">
         <div class="flex items-center space-x-3">
           <span class="bg-indigo-600 text-white text-sm font-semibold px-3 py-1 ml-8 mt-2 ">News</span>
           <p class="text-indigo-700 font-semibold">PingPong is joining Hotjar</p>
@@ -21,7 +21,7 @@
       </div>
     </div>
     
-     <Hero />
+     <Front />
 
      <!-- company logos -->
      <section class="bg-white py-8  pt-1">
@@ -308,9 +308,9 @@
             </div>
         
             <!-- Become a Tester CTA -->
-            <div class="border border-gray-200 p-6 h-50 w-90 ml-0 ">
-              <h4 class="font-bold text-3xl text-center text-gray-900 mb-2 mr-2">Become a tester <br> and earn money</h4>
-              <a href="#" class="text-blue-400 bg-blue-100 px-4 py-2 text font-medium inline-block mt-2 ml-20 text-center items-center hover:bg-blue-200">Get paid to test</a>
+            <div class="border border-gray-200 p-6 h-50 w-70 ml-0 mr-[30px] ">
+              <h4 class="font-bold text-2xl text-center text-gray-900 mb-2 mr-2">Become a tester and earn money</h4>
+              <a href="#" class="text-blue-400 bg-blue-100 px-4 py-2 text font-medium inline-block mt-2 ml-10 text-center items-center hover:bg-blue-200">Get paid to test</a>
             </div>
         
           </div>
