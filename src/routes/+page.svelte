@@ -8,54 +8,65 @@
     <div class="main mt-0 pl-0">
      <Nav />
 
-     <!-- news alert -->
-     <div class="bg-indigo-50 py-2 h-24 mt-0 mb-0 pb-0 pl-[70px]  ">
-      <div class="container mx-auto px-4 mr-8px">
-        <div class="flex items-center space-x-3">
-          <span class="bg-indigo-600 text-white text-sm font-semibold px-3 py-1 ml-8 mt-2 ">News</span>
-          <p class="text-indigo-700 font-semibold">PingPong is joining Hotjar</p>
-        </div>
-        <p class="text-indigo-600 text-sm mt-1 ml-18">
-          We are happy to announce that PingPong has been acquired by Hotjar.
-        </p>
-      </div>
+    <!-- news alert -->
+<div class="bg-indigo-50 py-2 h-auto mt-0 mb-0 pb-0 px-6 sm:px-8">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
+      <span class="bg-indigo-500 text-white text-xs sm:text-sm font-semibold px-3 py-1 mt-2 lg:ml-[60px]">News</span>
+      <p class="text-indigo-700 font-semibold text-sm sm:text-base ">PingPong is joining Hotjar</p>
     </div>
+    <p class="text-indigo-600 text-xs sm:text-sm mt-1 sm:ml-25 lg:ml-32">
+      We are happy to announce that PingPong has been acquired by Hotjar.
+    </p>
+  </div>
+</div>
+
     
+
+
      <Front />
 
-     <!-- company logos -->
-     <section class="bg-white py-8  pt-1">
-        <div class="container mx-auto px-6 lg:px-12">
-          <div class=" pt-0 pb-8 flex flex-wrap justify-center items-center gap-20 ">
-            <img src="/hotjar.svg" alt="Hotjar" class="h-12 opacity-80 pt-0"  />
-            <img src="/mccompany.svg" alt="McKinsey & Company" class="h-12 pt-0 " />
-            <img src="/nestle.svg" alt="Nestlé" class="h-12 pt-0" />
-            <img src="/skyscanner.svg" alt="Skyscanner" class="h-12 pt-0 " />
-            <img src="/wise.svg" alt="Wise" class="h-12 pt-0 " />
-            <img src="/zapier.svg" alt="Zapier" class="h-12 pt-0" />
-            <img src="/dropbox.svg" alt="Dropbox" class="h-12 pt-0" />
-          </div>
-          <div class="border-b border-gray-200 mt-4"></div>
-        </div>
-      </section >
+
+
+     
+    <!-- company logos -->
+<section class="bg-white py-8 pt-1">
+  <div class="container mx-auto px-6 lg:px-12">
+    <div class="pt-0 pb-8 flex flex-wrap justify-center items-center gap-12 sm:gap-16 md:gap-20">
+      <img src="/hotjar.svg" alt="Hotjar" class="h-12 opacity-80" />
+      <img src="/mccompany.svg" alt="McKinsey & Company" class="h-12" />
+      <img src="/nestle.svg" alt="Nestlé" class="h-12" />
+      <img src="/skyscanner.svg" alt="Skyscanner" class="h-12" />
+      <img src="/wise.svg" alt="Wise" class="h-12" />
+      <img src="/zapier.svg" alt="Zapier" class="h-12" />
+      <img src="/dropbox.svg" alt="Dropbox" class="h-12" />
+    </div>
+    <div class="border-b border-gray-200 mt-4"></div>
+  </div>
+</section>
+
+
+
+
       
       <!-- feedback -->
-      <section class="bg-white py-16">
-        <div class="container px-6 text-start w-100 ml-20 text-2xl">
-          <h2 class="text-3xl font-bold text-gray-900  leading-tight ml-20 w-80 font-sans">
-            Get feedback that makes a difference
-          </h2>
-          <p class="text-lg text-gray-600 mt-4 ml-20 w-140 text-start ">
-            PingPong takes care of all your remote UX research needs in one place, so
-            you can focus on what matters most: building products users will love.
-          </p></div>
+<section class="bg-white py-16">
+  <div class="container px-6 text-start w-full mx-auto text-2xl">
+    <h2 class="text-3xl font-bold text-gray-900 leading-tight ml-0 sm:ml-20 w-full sm:w-80 font-sans">
+      Get feedback that makes a difference
+    </h2>
+    <p class="text-lg text-gray-600 mt-4 ml-0 sm:ml-20 w-full sm:w-140 text-start">
+      PingPong takes care of all your remote UX research needs in one place, so
+      you can focus on what matters most: building products users will love.
+    </p>
+  </div>
 
-          <!-- feedback box -->
-       <!-- Box Layout -->
-  <div class="flex space-x-10 w-full pt-10 pl-10 justify-center">
+  <!-- feedback box -->
+  <!-- Box Layout -->
+  <div class="flex flex-wrap space-x-0 sm:space-x-10 w-full pt-10 px-6 justify-center gap-8">
     <!-- Box 1 -->
-    <div class="w-90 h-80 p-6 rounded-lg shadow-md bg-[#EFEFFC] flex flex-col items-center text-center">
-      <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 pl-0">
+    <div class="w-full sm:w-90 h-80 p-6 rounded-lg shadow-md bg-[#EFEFFC] flex flex-col items-center text-center">
+      <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
         <img src="feedback1.svg" alt="User Connect Icon" class="w-10 h-10" />
       </div>
       <h3 class="font-semibold text-lg text-gray-900">Connect to users from your audience</h3>
@@ -65,7 +76,7 @@
     </div>
 
     <!-- Box 2 -->
-    <div class="w-90 h-80 p-6 rounded-lg shadow-md bg-[#EDFEF6] flex flex-col items-center text-center">
+    <div class="w-full sm:w-90 h-80 p-6 rounded-lg shadow-md bg-[#EDFEF6] flex flex-col items-center text-center">
       <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
         <img src="/feedback2.svg" alt="Team Research Icon" class="w-10 h-10" />
       </div>
@@ -76,9 +87,9 @@
     </div>
 
     <!-- Box 3 -->
-    <div class="w-90 h-80 p-6 rounded-lg shadow-md bg-[#FEF9E5] flex flex-col items-center text-center">
-      <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 ">
-        <img src="/feedback3.svg" alt="Workflow Icon" class="w-10 h-10 " />
+    <div class="w-full sm:w-90 h-80 p-6 rounded-lg shadow-md bg-[#FEF9E5] flex flex-col items-center text-center">
+      <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
+        <img src="/feedback3.svg" alt="Workflow Icon" class="w-10 h-10" />
       </div>
       <h3 class="font-semibold text-lg text-gray-900">Use one platform for the entire research workflow</h3>
       <p class="text-gray-600 mt-2">
@@ -87,6 +98,8 @@
     </div>
   </div>
 </section>
+
+
 
 
 
@@ -189,78 +202,81 @@
         <img src="arrow.svg" alt="Decorative Arrow" class=" mt-0">
       </div>
   
-      <!--  Content -->
-      <div class="text-center  w-128">
-        <p class="text-2xl nuinto-sans italic text-gray-900 mb-0 mt-0">
-          PingPong allowed us to make user testing a habit and a truly fun thing to do by taking care of the painful parts. PingPong repeatedly connected me with people with just the right background, allowing us to focus solely on testing."
-        </p>
-        <p class="mt-4 nuinto-sans text-gray-500 text-lg">— Péter Gyöngyösi, One Identity</p>
-      </div>
-    </div>
+      <!-- Content -->
+<div class="text-center w-full sm:w-128 px-6 sm:px-0">
+  <p class="text-2xl sm:text-3xl nuinto-sans italic text-gray-900 mb-0 mt-0">
+    PingPong allowed us to make user testing a habit and a truly fun thing to do by taking care of the painful parts. PingPong repeatedly connected me with people with just the right background, allowing us to focus solely on testing."
+  </p>
+  <p class="mt-4 nuinto-sans text-gray-500 text-lg sm:text-xl">
+    — Péter Gyöngyösi, One Identity
+  </p>
+</div>
+
   </section>
 
 
         <!-- latest from ping pong -->
-        <section class="max-w-6xl mx-auto px-6 py-12">
-          <!-- Section Title -->
-          <h2 class="text-3xl font-sans font-bold text-left mb-8">The latest from PingPong</h2>
-        
-          <!-- Blog Grid -->
-          <div class="grid grid-cols-3 gap-8 ">
-            
-            <!-- Blog Card 1 -->
-            <div class="bg-white  overflow-hidden ">
-              <img src="/aquire.png" alt="Hotjar has acquired PingPong" class="w-fit h-55 object-cover" />
-              <div class="p-5">
-                <div class="flex items-center  text-gray-500 text-sm mb-3">
-                  <img src="/solt.png" alt="Zsolt" class="w-6 h-6 rounded-full mr-2" />
-                  <span>Zsolt</span>
-                  <span class="ml-auto">November 16, 2022</span>
-                </div>
-                <h3 class="text-lg font-bold ">Hotjar has acquired PingPong</h3>
-                <p class="text-gray-600 mt-2">The day has come, and I have some fantastic news to share. I'm happy to announce a huge milestone for PingPong: we’re joining Hotjar!</p>
-                <a href="#" class="text-blue-500 font-medium mt-3 inline-flex items-center">
-                  Read more <span class="ml-1">→</span>
-                </a>
-              </div>
-            </div>
-        
-            <!-- Blog Card 2 -->
-            <div class="bg-white  overflow-hidden  ">
-              <img src="/man.jpg" alt="UX Research Conferences in 2022" class="w-full h-55 object-cover" />
-              <div class="p-5">
-                <div class="flex items-center text-gray-500 text-sm mb-3">
-                  <img src="/thomas.png" alt="Thomas" class="w-6 h-6 rounded-full mr-2" />
-                  <span>Thomas</span>
-                  <span class="ml-auto">January 17, 2022</span>
-                </div>
-                <h3 class="text-lg font-bold">UX Research Conferences in 2022</h3>
-                <p class="text-gray-600 mt-2">It's a new year, with a new and updated list of conferences! Keep up with changes and developments in the industry. As you start to build your roadmap for the year, we've put together a list of UXR conferences that'll help keep you at the top of your game.</p>
-                <a href="#" class="text-blue-500 font-medium mt-3 inline-flex items-center">
-                  Read more <span class="ml-1">→</span>
-                </a>
-              </div>
-            </div>
-        
-            <!-- Blog Card 3 -->
-            <div class="bg-white overflow-hidden ">
-              <img src="/2022.jpg" alt="Looking back on 2021" class="w-full h-55 object-cover" />
-              <div class="p-5">
-                <div class="flex items-center text-gray-500 text-sm mb-3">
-                  <img src="/zsolt.png" alt="Zsolt" class="w-6 h-6 rounded-full mr-2" />
-                  <span>Zsolt</span>
-                  <span class="ml-auto">January 7, 2022</span>
-                </div>
-                <h3 class="text-lg font-bold">Looking back on 2021</h3>
-                <p class="text-gray-600 mt-2">Another year has passed, so it’s time to reflect on how things are going at PingPong.</p>
-                <a href="#" class="text-blue-500 font-medium mb-0  inline-flex items-center">
-                  Read more <span class="ml-1">→</span>
-                </a>
-              </div>
-            </div>
-        
-          </div>
-        </section>
+<section class="max-w-6xl mx-auto px-6 py-12">
+  <!-- Section Title -->
+  <h2 class="text-3xl font-sans font-bold text-left mb-8">The latest from PingPong</h2>
+  
+  <!-- Blog Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- Blog Card 1 -->
+    <div class="bg-white overflow-hidden">
+      <img src="/aquire.png" alt="Hotjar has acquired PingPong" class="w-full h-55 object-cover" />
+      <div class="p-5">
+        <div class="flex items-center text-gray-500 text-sm mb-3">
+          <img src="/solt.png" alt="Zsolt" class="w-6 h-6 rounded-full mr-2" />
+          <span>Zsolt</span>
+          <span class="ml-auto">November 16, 2022</span>
+        </div>
+        <h3 class="text-lg font-bold">Hotjar has acquired PingPong</h3>
+        <p class="text-gray-600 mt-2">The day has come, and I have some fantastic news to share. I'm happy to announce a huge milestone for PingPong: we’re joining Hotjar!</p>
+        <a href="#" class="text-blue-500 font-medium mt-3 inline-flex items-center">
+          Read more <span class="ml-1">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="bg-white overflow-hidden">
+      <img src="/man.jpg" alt="UX Research Conferences in 2022" class="w-full h-55 object-cover" />
+      <div class="p-5">
+        <div class="flex items-center text-gray-500 text-sm mb-3">
+          <img src="/thomas.png" alt="Thomas" class="w-6 h-6 rounded-full mr-2" />
+          <span>Thomas</span>
+          <span class="ml-auto">January 17, 2022</span>
+        </div>
+        <h3 class="text-lg font-bold">UX Research Conferences in 2022</h3>
+        <p class="text-gray-600 mt-2">It's a new year, with a new and updated list of conferences! Keep up with changes and developments in the industry. As you start to build your roadmap for the year, we've put together a list of UXR conferences that'll help keep you at the top of your game.</p>
+        <a href="#" class="text-blue-500 font-medium mt-3 inline-flex items-center">
+          Read more <span class="ml-1">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="bg-white overflow-hidden">
+      <img src="/2022.jpg" alt="Looking back on 2021" class="w-full h-55 object-cover" />
+      <div class="p-5">
+        <div class="flex items-center text-gray-500 text-sm mb-3">
+          <img src="/zsolt.png" alt="Zsolt" class="w-6 h-6 rounded-full mr-2" />
+          <span>Zsolt</span>
+          <span class="ml-auto">January 7, 2022</span>
+        </div>
+        <h3 class="text-lg font-bold">Looking back on 2021</h3>
+        <p class="text-gray-600 mt-2">Another year has passed, so it’s time to reflect on how things are going at PingPong.</p>
+        <a href="#" class="text-blue-500 font-medium mb-0 inline-flex items-center">
+          Read more <span class="ml-1">→</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
         <div class="border-b border-gray-200 mt-4"></div>
         
 
@@ -308,7 +324,7 @@
             </div>
         
             <!-- Become a Tester CTA -->
-            <div class="border border-gray-200 p-6 h-50 w-70 ml-0 mr-[30px] ">
+            <div class="border border-gray-200 p-6 h-50 w-70 ml-0 mr-[30px]  ">
               <h4 class="font-bold text-2xl text-center text-gray-900 mb-2 mr-2">Become a tester and earn money</h4>
               <a href="#" class="text-blue-400 bg-blue-100 px-4 py-2 text font-medium inline-block mt-2 ml-10 text-center items-center hover:bg-blue-200">Get paid to test</a>
             </div>
